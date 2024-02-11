@@ -10,16 +10,16 @@ srand(time(0));
     cin>>n;
 while(true){
     if(n==m){
-			cout<<"you are correct";
-			cin>>n;
+	cout<<"you are correct";
+	cin>>n;
+	  }
+  else if(n>m){
+	cout<<"enter smaller number"<<endl;
+	cin>>n;
 		    }
-	else if(n>m){
-			cout<<"enter smaller number"<<endl;
-			cin>>n;
-		    }
-    else{	
-        cout<<"enter largest number"<<endl;
-    	cin>>n;
+ else{	
+     cout<<"enter largest number"<<endl;
+     cin>>n;
 }
 }
 }
